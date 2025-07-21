@@ -6,7 +6,11 @@
 
     <groupId>org.example</groupId>
     <artifactId>ForgeTaskHub</artifactId>
+    <packaging>pom</packaging>
     <version>1.0.0</version>
+    <modules>
+        <module>framework/java_hub</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

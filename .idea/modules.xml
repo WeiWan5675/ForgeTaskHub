@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/golang_runtime.iml" filepath="$PROJECT_DIR$/golang_runtime.iml" />
-      <module fileurl="file://$PROJECT_DIR$/python_runtime/python_runtime.iml" filepath="$PROJECT_DIR$/python_runtime/python_runtime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/golang_hub.iml" filepath="$PROJECT_DIR$/golang_hub.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_hub.iml" filepath="$PROJECT_DIR$/java_hub.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework/python_hub/python_hub.iml" filepath="$PROJECT_DIR$/framework/python_hub/python_hub.iml" />
     </modules>
   </component>
 </project>

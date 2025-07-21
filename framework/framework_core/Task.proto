@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package framework;
+
+option go_package = "framework/golang_hub";
+option java_package = "com.ft.hub.config";
+option java_outer_classname = "TaskConfig";
+
+// 通用任务配置
+message TaskConfig {
+    string taskId = 1;
+    string taskName = 2;
+    string taskType = 3;
+    map<string, string> taskConfigs = 4;
+}

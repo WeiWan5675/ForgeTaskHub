@@ -6,9 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="java_runtime" />
-        <module name="ForgeTaskHub" />
+        <module name="java_hub" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="java_hub" target="1.8" />
+      <module name="java_runtime" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
